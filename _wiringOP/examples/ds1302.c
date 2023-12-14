@@ -201,7 +201,7 @@ int main (int argc, char *argv [])
   int clock [8] ;
 
   wiringPiSetup () ;
-  ds1302setup   (5, 7, 8) ;
+  ds1302setup   (7, 5, 8) ;
 
   if (argc == 2)
   {
